@@ -13,5 +13,5 @@ mydata$Time = strptime(mydata$Time, "%Y-%m-%d %H:%M:%S")
 
 png(file = "plot2.png")
 plot(mydata$Time, mydata$Global_active_power, type='l', xlab = "",
-     ylab = "Gloabl Active Power (kilowatts)")
+     ylab = "Global Active Power (kilowatts)")
 dev.off()
